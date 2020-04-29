@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary1", "WcfServiceLibrary1.csproj", "{F7E0C629-B198-4A18-985D-49FF392FC7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerWPF", "..\PlayerWPF\PlayerWPF.csproj", "{CF5B6D9E-13DD-45C9-B11C-080F66DB24BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7E0C629-B198-4A18-985D-49FF392FC7D9} = {F7E0C629-B198-4A18-985D-49FF392FC7D9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E0C629-B198-4A18-985D-49FF392FC7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E0C629-B198-4A18-985D-49FF392FC7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E0C629-B198-4A18-985D-49FF392FC7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E0C629-B198-4A18-985D-49FF392FC7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5B6D9E-13DD-45C9-B11C-080F66DB24BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5B6D9E-13DD-45C9-B11C-080F66DB24BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5B6D9E-13DD-45C9-B11C-080F66DB24BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5B6D9E-13DD-45C9-B11C-080F66DB24BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20AEFB57-E2BA-498A-8282-6DAF43FD1CE3}
+	EndGlobalSection
+EndGlobal

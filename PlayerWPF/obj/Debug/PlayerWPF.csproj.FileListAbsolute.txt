@@ -1,0 +1,15 @@
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.csprojAssemblyReference.cache
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\MainWindow.g.cs
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\App.g.cs
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF_MarkupCompile.cache
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF_MarkupCompile.lref
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\bin\Debug\PlayerWPF.exe.config
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\bin\Debug\PlayerWPF.exe
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\bin\Debug\PlayerWPF.pdb
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\MainWindow.baml
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.g.resources
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.Properties.Resources.resources
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.csproj.GenerateResource.cache
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.csproj.CoreCompileInputs.cache
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.exe
+D:\ITSTEP\WCF\Хрестики\PlayerWPF\obj\Debug\PlayerWPF.pdb

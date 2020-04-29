@@ -1,0 +1,7 @@
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojAssemblyReference.cache
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\ITSTEP\WCF\Хрестики\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

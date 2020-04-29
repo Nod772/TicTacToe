@@ -1,0 +1,56 @@
+﻿<Window x:Class="PlayerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayerWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="513.768" Width="552.657">
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Visibility="Visible" Name="headerPanel" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button Width="100" Margin="10 5" Name="createNewUser" Click="CreateNewUser_Click" Height="30">Create Account</Button>
+            <!--<Label Height="25">Enter your ID</Label>
+            <TextBox Name="lgId" Width="40"></TextBox>
+            <Button Width="100" Margin="10 5" Name="loginUser" Click="LoginUser_Click" Height="30">LogIn</Button>-->
+        </StackPanel>
+
+        <StackPanel Visibility="Visible" Name="createUserPanel" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Label Margin="10,14,10,5">Enter Your Name</Label>
+            <TextBox Width="100" Height="30" Margin="10 5" Name="tbName"/>
+            <Label Width="100" Margin="0,14,0,0">Your ID</Label>
+            <Label Width="20" Content="{Binding}" Name="idPlayer" Margin="0,14,0,0"></Label>
+            <Button Margin="10 5" Width="100" Height="30" Click="Button_Click">Create User</Button>
+        </StackPanel >
+        <StackPanel Visibility="Visible" Name="startGamePanel" Margin="5" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Label Margin="10,10,0,0">Your ID</Label>
+            <Label Content="{Binding ElementName=idPlayer,Path=Content}" Margin="0,8,0,0"></Label>
+            <Label Margin="10">Enter your symbol:</Label>
+            <TextBox Width="30" Height="30" Margin="10" Name="tbSym"/>
+            <Label Margin="0 10">Enter id player 2: "</Label>
+            <TextBox  Width="30" Margin="10" Name="p2"></TextBox>
+            <Button Margin="10 5" Width="100" Height="30" Click="Button_Click_1">Start Game</Button>
+        </StackPanel>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="A1" Click="A1_Click"  Grid.Row="1" Grid.Column="0"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="A2" Click="A2_Click"  Grid.Row="1" Grid.Column="1"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="A3" Click="A3_Click"  Grid.Row="1" Grid.Column="2"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="B1" Click="B1_Click"  Grid.Row="2" Grid.Column="0"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="B2" Click="B2_Click"  Grid.Row="2" Grid.Column="1"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="B3" Click="B3_Click"  Grid.Row="2" Grid.Column="2"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="C1" Click="C1_Click"  Grid.Row="3" Grid.Column="0"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="C2" Click="C2_Click"  Grid.Row="3" Grid.Column="1"></Button>
+        <Button Margin="10" FontSize="50" Content="{Binding}" Name="C3" Click="C3_Click"  Grid.Row="3" Grid.Column="2"></Button>
+    </Grid>
+</Window>

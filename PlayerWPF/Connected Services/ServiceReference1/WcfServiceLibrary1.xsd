@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Field">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="A1" />
+      <xs:enumeration value="A2" />
+      <xs:enumeration value="A3" />
+      <xs:enumeration value="B1" />
+      <xs:enumeration value="B2" />
+      <xs:enumeration value="B3" />
+      <xs:enumeration value="C1" />
+      <xs:enumeration value="C2" />
+      <xs:enumeration value="C3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Field" nillable="true" type="tns:Field" />
+</xs:schema>
